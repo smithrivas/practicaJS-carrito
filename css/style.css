@@ -83,6 +83,7 @@ nav a:hover{
 .heading{
     font-size: 4rem;
     text-align: center;
+    margin-top: 6rem;
 }
 
 /*CARD*/
@@ -90,7 +91,7 @@ nav a:hover{
     display: grid;
     
     gap: 2rem;
-    margin: 3rem 0;   
+    margin: 6rem 0;   
 }
 @media (min-width: 480px){
     .principal-content{        
@@ -206,4 +207,43 @@ footer{
 }
 .info-footer{
     margin-bottom: 1rem;
+}
+
+/*FORMULARIO*/
+.form{
+    max-width: 50rem;
+    margin: 5rem auto;
+}
+.form-input{
+    display: flex;
+    margin: 1rem;
+}
+.form-input label{
+    flex-basis: 10rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.form-input input, textarea{
+    flex: 1;
+    border: 1px solid #e1e1e1;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.form-input textarea{
+    font-size: 1.5rem;
+}
+.send{
+    text-align: end;
+}
+.send button{
+    background-color: rgb(38, 204, 38);
+    color: whitesmoke;    
+    border: none;
+    font-size: 1.5rem;    
+    font-weight: bold;
+    height: 3rem;
+    width: 12rem;
+    border-radius: 0.3rem;    
+    text-transform: uppercase;    
+    margin-right: 1rem;
 }
