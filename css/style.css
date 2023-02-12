@@ -83,7 +83,7 @@ nav a:hover{
 .heading{
     font-size: 4rem;
     text-align: center;
-    margin-top: 6rem;
+    margin-top: 5rem;
 }
 
 /*CARD*/
@@ -194,7 +194,7 @@ footer a{
 footer{
     background-color: rgb(26, 26, 26);
     color: whitesmoke;
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: flex;    
     flex-direction: column;
     justify-content: center;
@@ -212,7 +212,7 @@ footer{
 /*FORMULARIO*/
 .form{
     max-width: 50rem;
-    margin: 5rem auto;
+    margin: 3rem auto;
 }
 .form-input{
     display: flex;
@@ -245,5 +245,43 @@ footer{
     width: 12rem;
     border-radius: 0.3rem;    
     text-transform: uppercase;    
-    margin-right: 1rem;
+    margin-right: 1rem;    
+}
+.send .disabled{
+    background-color: rgba(38, 204, 38, 0.541);
+}
+
+/*ALERTA*/
+.alert-red{
+    background-color: rgb(229, 37, 37);
+    color: white;
+    padding: 4px;
+    text-align: center;    
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+.alert-green{
+    background-color: rgb(78, 211, 54);    
+    color: white;
+    padding: 4px;
+    text-align: center;    
+    font-size: 1.5rem;
+    margin: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*SPINNER*/
+.sk-chase{
+    margin: 0 0 3rem 0 !important;
+}
+.spinner-container{
+    display: flex;
+    justify-content: center;    
+}
+.spinner-disabled{    
+    display: none;      
+}
+.spinner-active{
+    display: flex;
 }
