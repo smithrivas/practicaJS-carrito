@@ -36,6 +36,10 @@ header{
 header h1{
     margin: 0;
 }
+header a{
+    text-decoration: none;
+    color: aquamarine;
+}
 @media (max-width: 768px){
     header h1{
         font-size: 4.4rem;
@@ -91,7 +95,7 @@ nav a:hover{
     display: grid;
     
     gap: 2rem;
-    margin: 6rem 0;   
+    margin: 3rem 0;   
 }
 @media (min-width: 480px){
     .principal-content{        
@@ -109,7 +113,7 @@ nav a:hover{
     }
 }
 .card{        
-    height: 33rem;
+    height: 36rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -167,6 +171,7 @@ nav a:hover{
     display: inline-block;
     margin-top: 0.5rem;
 }
+
 @media (max-width: 480px){
     .card button{
         width: 70%;
@@ -284,4 +289,81 @@ footer{
 }
 .spinner-active{
     display: flex;
+}
+
+/*CATEGORY*/
+.category{    
+    font-weight: bold;
+    font-size: 1.4rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+/*NO RESULT*/
+.container-no-result{
+    grid-column: 1/5;
+}
+.container-no-result img{    
+    margin: 0 auto;
+    width: 50rem;
+    height: 50rem;    
+}
+.no-result{        
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    font-size: 2rem;
+    background-color: red;
+    margin: 0;
+}
+
+/*FILTER*/
+.filter{
+    margin: 3rem 2rem 0 2rem;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    padding-bottom: 1rem;
+}
+@media (max-width: 768px){
+    .filter{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.filter label{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+@media (max-width: 768px){
+    .filter label{
+        margin: 0.8rem 0;
+    }
+}
+.filter select{
+    font-size: 1.6rem;
+    margin-right: 2rem;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+.filter h2{
+    font-size: 2rem;
+}
+.filter button{
+    background-color: #00ca87;    
+    color: white;    
+    padding: 6px;
+    border-radius: 0.3rem;
+    text-align: center;    
+    font-size: 1.5rem;
+    margin: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;    
+}
+@media (max-width: 768px){
+    .filter button{
+        width: 16rem;
+        margin: 2rem 0 auto;
+    }
 }

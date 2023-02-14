@@ -14,7 +14,7 @@
 </head>
 <body>
     <header>
-        <h1>C u r s o s • v i r t u a l e s</h1>
+        <h1><a href="index.html">C u r s o s • v i r t u a l e s</a></h1>
     </header>
     <nav>
         <a href="index.html">Inicio</a>
@@ -22,8 +22,44 @@
         <a href="contacto.html">Contacto</a>
         <a href="#"><i class="fa-solid fa-cart-shopping"></i> Ver carrito</a>        
     </nav>   
-    <main class="container">
-        <!-- <h1 class="heading">Cursos más vendidos</h1> -->
+    <main class="container">        
+        <div>
+            <section class="filter">            
+                <h2>Filtrar:</h2>
+                <label for="categoria">Categoría:</label>
+                <select name="categoria" id="categoria">
+                    <option value="">--Seleccione--</option>
+                    <option value="ofimatica">Ofimática</option>
+                    <option value="programacion">Programación</option>
+                    <option value="tecnologia">Tecnología</option>
+                </select>
+                <label for="minimo">Precio Min:</label>
+                <select name="minimo" id="minimo">
+                    <option value="">--Seleccione--</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                    <option value="25">25</option>
+                    <option value="30">30</option>
+                    <option value="35">35</option>
+                    <option value="40">40</option>
+                    <option value="45">45</option>
+                    <option value="50">50</option>
+                </select>
+                <label for="maximo">Precio Max:</label>
+                <select name="maximo" id="maximo">
+                    <option value="">--Seleccione--</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                    <option value="25">25</option>
+                    <option value="30">30</option>
+                    <option value="35">35</option>
+                    <option value="40">40</option>
+                    <option value="45">45</option>
+                    <option value="50">50</option>
+                </select>
+                <button id="reset">Reiniciar filtro</button>
+            </section>
+        </div>
         <section class="principal-content" id="principal-content">
             <!-- Sección cards de cursos -->            
         </section>
