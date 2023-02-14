@@ -113,7 +113,7 @@ nav a:hover{
     }
 }
 .card{        
-    height: 36rem;
+    height: 37rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -128,7 +128,7 @@ nav a:hover{
 }
 @media (max-width: 480px){
     .card{
-        height: 37rem;
+        height: 40rem;
     }
 }
 .card:hover{
@@ -151,7 +151,7 @@ nav a:hover{
 .card img{
     height: 14rem;
     width: 100%;
-    object-fit: cover;    
+    object-fit: contain;    
 }
 @media (max-width: 480px){
     .card img{
